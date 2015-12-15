@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-answers",
+  "version": "0.1.0",
+  "description": "Cordova Answers Plugin for iOS and Android",
+  "cordova": {
+    "id": "com.napolitano.cordova.plugin.answers",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/napolitano/cordova-plugin-answers"
+  },
+  "keywords": [
+    "cordova",
+    "answers",
+    "crashlytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Axel Naolitano, Napolitano Business Solutions",
+  "license": "MIT"
+}

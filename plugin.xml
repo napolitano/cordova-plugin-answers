@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.napolitano.cordova.plugin.answers"
+        version="0.1.0">
+
+    <name>AnswersPlugin</name>
+    <description>Cordova Answers Plugin for iOS and Android</description>
+    <license>MIT</license>
+
+    <repo>https://github.com/napolitano/cordova-plugin-answers</repo>
+    <issue>https://github.com/napolitano/cordova-plugin-answers/issues</issue>
+
+    <keywords>cordova,answers,crashlytics,ios,android</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AnswersPlugin">
+                <param name="android-package" value="com.napolitano.cordova.plugin.answers"/>
+            </feature>
+        </config-file>
+
+        <js-module src="www/android/AnswersPlugin.js" name="AnswersPlugin">
+            <clobbers target="answersPlugin" />
+        </js-module>
+
+        <source-file src="src/android/AnswersPlugin.java" target-dir="src/com/napolitano/cordova/plugin/answers" />
+
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="AnswersPlugin">
+                <param name="ios-package" value="AnswersPlugin"/>
+            </feature>
+        </config-file>
+
+        <js-module src="www/ios/CrashlyticsPlugin.js" name="AnswersPlugin">
+            <clobbers target="answersPlugin" />
+        </js-module>
+
+        <header-file src="src/ios/AnswersPlugin.h" />
+        <source-file src="src/ios/AnswersPlugin.m" />
+
+    </platform>
+
+</plugin>
