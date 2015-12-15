@@ -4,7 +4,7 @@
 //  Axel Napolitano, Napolitano Business Solutions - 2015/12/15
 //
 
-#import "AnswersPlugin"
+#import "AnswersPlugin.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Answers.h>
 
