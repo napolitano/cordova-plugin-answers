@@ -4,7 +4,6 @@
 //  Axel Napolitano, Napolitano Business Solutions - 2015/12/15
 //
 
-#import "AnswersPlugin"
 #import <Foundation/Foundation.h>
 #import <Cordova/CDV.h>
 
