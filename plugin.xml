@@ -43,7 +43,7 @@
             </feature>
         </config-file>
 
-        <js-module src="www/ios/CrashlyticsPlugin.js" name="AnswersPlugin">
+        <js-module src="www/ios/AnswersPlugin.js" name="AnswersPlugin">
             <clobbers target="answersPlugin" />
         </js-module>
 

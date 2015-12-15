@@ -74,5 +74,5 @@ var logToAnswers = function () {
 
 ## Credits
 
-Román A. Sarria - https://github.com/sarriaroman
-Francesco Verheye - https://github.com/verheyefrancesco
+- Román A. Sarria - https://github.com/sarriaroman
+- Francesco Verheye - https://github.com/verheyefrancesco
