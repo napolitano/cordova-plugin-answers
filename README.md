@@ -1,5 +1,7 @@
 # Cordova Answers Plugin for iOS and Android (iOS and Android)
 
+__This plugin is not longer maintained.__
+
 ## Installation
 
 1) Make sure that you have [Node](http://nodejs.org/) and [Cordova CLI](https://github.com/apache/cordova-cli) or [PhoneGap's CLI](https://github.com/mwbrooks/phonegap-cli) installed on your machine.
